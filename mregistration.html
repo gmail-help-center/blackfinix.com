@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+
+<div class="auth-box">
+
+  <h2>Create Account</h2>
+
+<input type="text" id="name" placeholder="Full Name">
+
+<input type="email" id="email" placeholder="Email Address">
+
+<input type="tel" id="phone" placeholder="Phone Number">
+
+<input
+  type="password"
+  id="password"
+  placeholder="Password"
+  minlength="6"
+  maxlength="20">
+
+<input type="password" id="confirmPassword" placeholder="Confirm Password">
+
+<p id="message"></p>
+<button onclick="validateForm()">Create Account</button>
+
+  <p>
+    Already have an account?
+    <a href="mlogin.html">Login</a>
+  </p>
+
+</div>
+<script src="movie.js"></script>
+</body>
+</html>
